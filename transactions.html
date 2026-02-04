@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo Bank | Transactions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.credit { color: #1a7f37; }
+.debit { color: #b42318; }
+</style>
+</head>
+
+<body>
+
+<header>
+    <strong>Demo Bank</strong>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="settings.html">Settings</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Transaction History</h2>
+    <p>Checking Account ••••2599</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Crypto.com Transfer</td>
+                <td>01/31/26</td>
+                <td class="credit">+$12,378,900.23</td>
+            </tr>
+            <tr>
+                <td>Publix Super Market</td>
+                <td>01/26/26</td>
+                <td class="debit">-$45.99</td>
+            </tr>
+            <tr>
+                <td>Circle K 29414</td>
+                <td>01/20/26</td>
+                <td class="debit">-$12.50</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

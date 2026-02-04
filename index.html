@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>South Carolina Fedral | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1c1c1c;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.balance {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.account-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.account-row a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 500;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <strong>Demo Bank</strong>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="settings.html">Settings</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <p>Good afternoon, <strong>Joshua</strong></p>
+        <h3>Total Balance</h3>
+        <div class="balance">$287,874,723.32</div>
+        <p style="color:#666;">Updated just now</p>
+    </div>
+
+    <div class="card">
+        <h3>Accounts</h3>
+
+        <div class="account-row">
+            <div>
+                <strong>Checking Account</strong><br>
+                Balance: $287,874,723.32
+            </div>
+            <a href="transactions.html">View Transactions</a>
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
